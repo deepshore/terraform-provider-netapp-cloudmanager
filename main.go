@@ -1,8 +1,8 @@
 package main
 
 import (
+	"github.com/deepshore/terraform-provider-netapp-cloudmanager/cloudmanager"
 	"github.com/hashicorp/terraform/plugin"
-	"github.com/netapp/terraform-provider-netapp-cloudmanager/cloudmanager"
 )
 
 func main() {

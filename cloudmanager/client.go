@@ -20,7 +20,7 @@ import (
 	"github.com/aws/aws-sdk-go/aws/credentials"
 	"github.com/aws/aws-sdk-go/aws/session"
 	"github.com/aws/aws-sdk-go/service/ec2"
-	"github.com/netapp/terraform-provider-netapp-cloudmanager/cloudmanager/cloudmanager/restapi"
+	"github.com/deepshore/terraform-provider-netapp-cloudmanager/cloudmanager/cloudmanager/restapi"
 	"github.com/sirupsen/logrus"
 )
 
