@@ -1,4 +1,4 @@
-module github.com/netapp/terraform-provider-netapp-cloudmanager
+module github.com/deepshore/terraform-provider-netapp-cloudmanager
 
 go 1.20
 
