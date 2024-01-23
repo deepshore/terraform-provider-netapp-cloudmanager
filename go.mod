@@ -1,6 +1,6 @@
 module github.com/netapp/terraform-provider-netapp-cloudmanager
 
-go 1.15
+go 1.20
 
 require (
 	github.com/Azure/azure-sdk-for-go v46.4.0+incompatible
