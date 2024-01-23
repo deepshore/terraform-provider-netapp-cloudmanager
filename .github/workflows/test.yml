@@ -73,7 +73,5 @@ jobs:
           terraform_version: ${{ matrix.terraform }}
           terraform_wrapper: false
       - run: go mod download
-      - env:
-          TF_ACC: "1"
-        run: go test -v -cover ./cloudmanager/
+      - run: go test -v -cover ./cloudmanager/
         timeout-minutes: 10
